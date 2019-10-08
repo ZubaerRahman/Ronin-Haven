@@ -1,0 +1,44 @@
+body{
+    /*background-image: url("https://cdn.wallpapersafari.com/30/20/HpMvn6.jpg");*/
+    background-image: url("https://wallpaperaccess.com/full/270407.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 460px;
+    background-position: center;
+}
+
+#prevnext{
+    text-align: center;
+}
+#prev, #next{
+    width: 20%;
+}
+#start{
+    width: 850px;
+}
+
+#pagenumber {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    background: #343a40;
+    margin: 0 auto; /*centers element*/
+}
+
+figure{
+    height: 980px;
+    width: 850px;
+    /*border: 1px solid black;*/
+    text-align: center;
+    margin: 0 auto;
+}
+
+#currentpage {
+    max-width: 850px;
+    max-height: 900px;
+    margin-bottom: 10px;
+    border: solid 5px black;
+}

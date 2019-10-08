@@ -1,0 +1,102 @@
+.left-column, .right-column{
+    float: left;
+    width: 25%;
+}
+.mangainfo{
+    float: left;
+    text-align: center;
+    width: 50%;
+    /*margin: 0 auto;*/
+    border: 3px solid black;
+}
+
+.mangainfo p,h2{
+    margin: 0 auto;
+    text-align: left;
+}
+
+#title{
+    max-width: 90%;
+}
+
+figure{
+    text-align: left;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    border: 3px solid black;
+    border-radius: 10px;
+}
+#categories{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#categorytag{
+    background-color: #343a40;
+    color: white;
+    border: 3px solid #343a40;
+    border-radius: 8%;
+    padding: 3px;
+    margin-right: auto;
+}
+
+.category{
+    border: 3px solid deepskyblue;
+    border-radius: 8%;
+    padding: 3px;
+    max-width: 20%;
+}
+
+.category:nth-child(2n+0){
+    border: 3px solid gold;
+}
+
+#auth-art-date{
+    margin: 0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#author {
+    border: 3px solid hotpink;
+    border-radius: 5%;
+    padding: 3px;
+    width: 30%;
+}
+
+#artist {
+    border: 3px solid mediumpurple;
+    border-radius: 5%;
+    padding: 3px;
+    width: 30%;
+
+}
+
+#date{
+    border: 3px solid darkred;
+    border-radius: 5%;
+    padding: 3px;
+    width: 30%;
+}
+
+#synopsis{
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 90%;
+    padding: 10px;
+}
+
+input[type=submit]{
+    width: 40%;
+    color: white;
+    background-color:#343a40!important;
+    border-color:#343a40!important;
+    padding: 5px;
+    border-radius: 10px;
+}

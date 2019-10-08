@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+#main{
+    max-width: 50%;
+    margin: 0 auto;
+}
+ul{
+    text-align: left;
+    list-style: none;
+}
+#chapterlist li{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px;
+    margin: 4px;
+}
+
+ul li:nth-child(n+11) {
+    display:none;
+}
+
+#loadMore {
+    cursor: pointer;
+    color: white;
+}
+
+a{
+    color: black;
+}
+
